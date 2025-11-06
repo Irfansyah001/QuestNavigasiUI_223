@@ -20,6 +20,7 @@ fun DataApp(
     Scaffold { isiRuang ->
         NavHost(
             navController = navController,
+            startDestination = Navigasi.Formulir.name,
     }
 }
 )
